@@ -40,6 +40,12 @@
 			<li aria-current={$page.url.pathname === '/efectotexto' ? 'page' : undefined}>
 				<a href="/efecto7">Efecto 7</a>
 			</li>
+			<li aria-current={$page.url.pathname === '/efectotexto' ? 'page' : undefined}>
+				<a href="/efecto8">Efecto 8</a>
+			</li>
+			<li aria-current={$page.url.pathname === '/efectotexto' ? 'page' : undefined}>
+				<a href="/efecto9">Efecto 9</a>
+			</li>
 			
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
