@@ -32,7 +32,7 @@
 				<a href="/efecto4">Efecto 4</a>
 			</li>
 			<li aria-current={$page.url.pathname === '/efectotexto' ? 'page' : undefined}>
-				<a href="/efecto3">Efecto 3</a>
+				<a href="/efecto5">Efecto 5</a>
 			</li>
 			
 		</ul>
