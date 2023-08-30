@@ -1,38 +1,47 @@
-# create-svelte
+# SvelteEfectosTexto
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+¡Bienvenido/a a SvelteEfectosTexto! Este es un proyecto de demostración creado con SvelteKit que presenta diversos efectos de texto creativos. Cada efecto se ha diseñado para mostrar cómo se pueden lograr resultados visuales interesantes utilizando animaciones y estilos en Svelte.
 
-## Creating a project
+## Efectos de Animación de Texto
 
-If you're seeing this, you've probably already done this step. Congrats!
+En este proyecto, hemos implementado varios efectos de animación de texto utilizando Svelte y CSS. Aquí hay una descripción general de algunos efectos que hemos utilizado:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Efecto 1: Animación de Texto con Degradado de Fondo y Texto Mecanografiado
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Este efecto muestra un título que cambia de color utilizando un degradado de fondo. El texto se mecanografía gradualmente para dar la sensación de que se está escribiendo en tiempo real.
 
-## Developing
+![Efecto 1](/src/lib/images/Efecto4.png_small.png)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Efecto 2: Animación de Texto con Selección de Estado de Ánimo Interactivo
 
-```bash
-npm run dev
+En este efecto, presentamos una serie de opciones de estado de ánimo. Al pasar el cursor sobre cada opción, el estado de ánimo se resalta y el usuario puede seleccionar su estado de ánimo actual.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+![Efecto 2](/src/lib/images/segundoefectoreadme.png_small.png)
 
-## Building
+### Efecto 3: Animación de Texto con Palabras que Aparecen y Cambian de Color
 
-To create a production version of your app:
+En este efecto, las palabras aparecen una por una con una animación de entrada. Además, cada palabra cambia de color al mismo tiempo que aparece.
 
-```bash
-npm run build
-```
+![Efecto 3](/src/lib/images/efecto3readme.png_small.png)
 
-You can preview the production build with `npm run preview`.
+### Efecto 4: Animación de Texto en Estilo de Mosaico
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Este efecto muestra el título en un estilo de mosaico, con cada letra siendo un bloque individual. Las letras se animan para formar el título completo.
+
+![Efecto 4](/src/lib/images/efecto4readme.png_small.png)
+
+## Cómo Ejecutar
+
+1. Clona este repositorio: `git clone https://github.com/tuusuario/SvelteEfectosTexto.git`
+2. Ve al directorio del proyecto: `cd SvelteEfectosTexto`
+3. Instala las dependencias: `npm install`
+4. Inicia el servidor de desarrollo: `npm run dev`
+5. Abre tu navegador y ve a `http://localhost:5173`
+
+## Créditos
+
+Este proyecto ha sido creado por [Irina Ichim](https://github.com/Irina-Ichim).
+
+## Contribuciones
+
+Si deseas contribuir a este proyecto, ¡estamos abiertos a tus sugerencias y mejoras! Siéntete libre de enviar un pull request.
